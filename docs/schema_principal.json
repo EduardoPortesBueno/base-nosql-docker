@@ -1,0 +1,53 @@
+{
+  "_id": "670a1c2e8f3b4a5d6e7f8a01",
+  "nome": "Assados do Trianon",
+  "slug": "assados-do-trianon",
+  "dono_id": "670a1b9d8f3b4a5d6e7f8900",
+  "whatsapp": "42999123456",
+  "ativa": true,
+  "taxa_plataforma_percentual": 1.5,
+  "endereco": {
+    "logradouro": "Rua das Araucárias",
+    "numero": "1450",
+    "bairro": "Trianon",
+    "cidade": "Guarapuava",
+    "uf": "PR",
+    "localizacao": { "type": "Point", "coordinates": [-51.4582, -25.3921] }
+  },
+  "atendimento": {
+    "retirada": true,
+    "entrega": { "ativa": true, "raio_km": 4.5, "taxa": 7.00, "pedido_minimo": 50.00 }
+  },
+  "horarios": [
+    { "dia": "SABADO", "abre": "08:00", "fecha": "13:30" },
+    { "dia": "DOMINGO", "abre": "08:00", "fecha": "13:00" }
+  ],
+  "cardapio": [
+    {
+      "produto_id": "670a1d4f8f3b4a5d6e7f8b01",
+      "nome": "Frango assado inteiro",
+      "venda": { "tipo": "UNIDADE", "preco": 52.00 },
+      "estoque": { "limitado": true },
+      "detalhes": { "recheio": "Farofa de miúdos", "tempero": "Alho e limão" },
+      "ativo": true
+    },
+    {
+      "produto_id": "670a1d4f8f3b4a5d6e7f8b02",
+      "nome": "Costela bovina fogo de chão",
+      "venda": { "tipo": "PESO", "preco_kg": 84.90, "peso_medio_kg": 1.8 },
+      "estoque": { "limitado": true },
+      "detalhes": { "corte": "Janela", "horas_no_fogo": 8 },
+      "ativo": true
+    },
+    {
+      "produto_id": "670a1d4f8f3b4a5d6e7f8b03",
+      "nome": "Maionese caseira 500 g",
+      "venda": { "tipo": "UNIDADE", "preco": 16.00 },
+      "estoque": { "limitado": false },
+      "ativo": true
+    }
+  ],
+  "avaliacao_resumo": { "total": 132, "soma_notas": 621, "media": 4.7 },
+  "criada_em": "2026-08-14T13:20:00Z",
+  "atualizada_em": "2026-09-29T21:14:08Z"
+}
